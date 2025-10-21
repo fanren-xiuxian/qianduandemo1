@@ -1,0 +1,11 @@
+.linkstyle{
+    color: aqua;
+}
+.redcss{
+    background: red;
+}
+.bluecss{
+    background-color: blue;
+    text-align: center;
+    font-weight: 900;
+}
