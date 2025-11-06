@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="width: 500px;">
+        <div style="background-color:aquamarine">
+            <h1  style="margin-bottom:0;">
+                Title
+            </h1>
+        </div>
+        <div style="background-color:bisque;width: 100px;height: 200px;float: left;">
+            <b>菜单</b><br>
+            HTML<br>
+            CSS<br>
+            JavaScrip
+        </div>
+        <div style="background-color: burlywood;width: 400px;height: 200px;float: left;">
+            neirong
+        </div>
+        <div id="footer" style="background-color:coral;clear:both;text-align:center;">
+            版权 © runoob.com
+        </div>
+    </div>
+    <h2>表单</h2>
+    <form action="/" method="post">
+        <!-- 文本输入框 -->
+        <label for="name">用户名:</label>
+        <input type="text" id="name" name="name" required placeholder="请输入3-10位用户名">
+        <br>
+        <label for="password">密码：</label>
+        <input type="password" id="password" name="password" required placeholder="请输入6-16位密码（含字母+数字）">
+        <br>
+        <label>性别：</label>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">男</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">女</label>
+        <br>
+        <input type="checkbox" id="subscribe" name="subscribe" checked>
+        <label for="subscribe">订阅推送信息</label>
+        <br>
+        <label for="country">国家：</label>
+        <select id="country" name="country">
+            <option value="cn">中国</option>
+            <option value="usa">美国</option>
+            <option value="uk">英国</option>
+        </select>
+        <br>
+        <input type="submit" value="提交">
+        <br>
+        <textarea name="aa" id="aa" cols="30" rows="10"  placeholder="请简要介绍自己（比如兴趣爱好、个人经历等，500字以内）"></textarea>
+        <hr>
+        <div>100&lt;120&nbsp;&nbsp;&nbsp;a&#770;</div>
+        <video width="320" height="240" controls style="margin-left: auto;margin-right: auto;display: block;">
+            <source src="movie.mp4" type="video/mp4">
+          </video>
+          <hr>
+          选择你喜欢的颜色：<input type="color" name="favcolor">
+          <hr>
+          生日（日期和时间）：<input type="datetime-local" name="bdaytime">
+    </form>
+</body>
+</html>
